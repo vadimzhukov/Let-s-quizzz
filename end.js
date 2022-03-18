@@ -29,7 +29,7 @@ saveHighScore = (e) => {
     console.log(highScore);
     
     localStorage.setItem('highScore', JSON.stringify(highScore));
-    return window.location.replace('/index.html');
+    window.location.replace('/index.html');
 };
 
 
