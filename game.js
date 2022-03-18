@@ -85,7 +85,9 @@ getNewQuestion = () => {
         
         localStorage.setItem('score', score);
         //go to the end page
-        return window.location.replace("./end.html");
+        console.log("==THE END==");
+        return;
+       // return window.location.replace("./end.html");
     }
     questionCounter++;
     //question counter on heads-up display
